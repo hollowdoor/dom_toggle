@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "build": "ebam",
+    "test": "echo \"no test\""
+  },
+  "name": "dom-toggle",
+  "description": "Show, or hide an element",
+  "keywords": [
+    "DOM",
+    "toggle",
+    "show",
+    "hide",
+    "element"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hollowdoor/dom_toggle.git"
+  },
+  "ebam": {
+    "entry": "src/index.js",
+    "transforms": {
+      "dangerousForOf": false,
+      "dangerousTaggedTemplateString": false
+    },
+    "test": {
+      "dest": "test/code.js",
+      "src": "test/src.js"
+    }
+  },
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io)"
+}
